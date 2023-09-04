@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/aa.css">
+</head>
+<body>
+    <div class="main">
+        <div class="left-login">
+            <h1>Faca login <br> para usufruir da nossa bela CartECA</h1>
+            <img src="{{url_for('static', filename='ECA2.png') }}">
+        </div>
+        <form method="post">
+            <div class="rigth-login">        
+                <div class="info">
+                    <h1>Login</h1>
+                    <div class="textfield">
+                        <label for="usuario">Usuário: </label>
+                        <input type="text" name="nome" id="nome" placeholder="usuario">
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha: </label>
+                        <input type="password" name="senha" id="senha" placeholder="senha">
+                    </div>
+                    <button class="btn-login">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
