@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/649e88a597.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/signup.css">
+    <link rel="stylesheet" href="./static/testi.css">
     <title>Document</title>
 </head>
+<header>
+    <div class="mainc">
+        <div class="logoc"> <img src="{{url_for('static', filename='caneca.png') }}" alt="caneca"></div>
+        <div class="menuc">
+            <nav>
+                <a href="/">Login</a>
+            </nav>
+        </div>
+        <div class="redesc">
+            <a href="https://github.com/zeloo22?tab=repositories"><button><i class="fa-brands fa-github"></i></button></a>
+            <a href="https://www.instagram.com/diniz_22/"><button><i class="fa-brands fa-instagram"></i></button></a>
+        </div>
+
+    </div>
+</header>
 <body>
-    <div id="main">
-        <form method="post">
-            <input type="text" id="usuario", name="usuario" required>
-            <label for="usuario">Usuario</label>
-            <input type="text" id="senha" name="senha" required>
-            <label for="senha">Senha</label>
-            <button type="submit">Cadastrar</button>
-        </form>
+    <div class="master">
+        <div class="painel">
+            <h1>Cadastro</h1>
+            <form method="post">
+                <div class="textfield">
+                    <label for="usuario">Usuário: </label>
+                    <input type="text" id="usuario", name="usuario" placeholder="Usuário" required>
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha: </label>
+                    <input type="password" id="senha" name="senha" placeholder="Senha" required>
+                </div>                
+                <button  class="btn-login" type="submit">Cadastrar</button>
+            </form>
+        </div>
+        
     </div>
 </body>
 </html>

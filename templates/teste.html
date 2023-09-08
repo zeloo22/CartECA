@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <script src="https://kit.fontawesome.com/649e88a597.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./static/scarta.css">
+    <link rel="stylesheet" href="./static/testi.css">
     <title>CartECA</title>
 </head>
+<header>
+    <div class="mainc">
+        <div class="logoc"> <img src="{{url_for('static', filename='caneca.png') }}" alt="caneca"></div>
+        <div class="menuc">
+            <nav>
+                <a href="/carta">Escrever</a>
+                <a href="#">Mostrar</a>
+                <a href="/">Sair</a>
+            </nav>
+        </div>
+        <div class="redesc">
+            <a href="https://github.com/zeloo22?tab=repositories"><button><i class="fa-brands fa-github"></i></button></a>
+            <a href="https://www.instagram.com/diniz_22/"><button><i class="fa-brands fa-instagram"></i></button></a>
+        </div>
+
+    </div>
+</header>
 <body>
 
     <form method="post">

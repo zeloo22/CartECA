@@ -1,55 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
-body{
-    margin: 0;
-    font-family: 'Handjet', cursive;
-    font-size: 20px;
+
+
+.master{
     background-color: #8ce49c;
-}
-.main{
-    height: 100vh;
+    display: flex;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.left-login{
-    width: 50vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;   
+    
+}
+
+.painel{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-}
-
-.left-login > img{
-    display: flex;
-    width: 80%;
-
-}
-
-.left-login > h1{
-    color: rgb(29, 32, 32);
-}
-
-.rigth-login{
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.info{
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px 35px;
     background: #65a96e;
+    padding: 50px 40px;
     border-radius: 20px;
-    box-shadow: 0px 10px 40px;  
+    box-shadow: 0px 10px 40px; 
+    
 }
 
 .textfield{
@@ -58,7 +28,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 
 .textfield > input{
@@ -81,7 +51,7 @@ body{
 .btn-login{
     width: 100%;
     padding: 16px 0px;
-    margin: 25px;
+    margin: 15px 0px;
     background: #b4cfbc;
     border: none;
     border-radius: 8px;
@@ -91,4 +61,3 @@ body{
     letter-spacing: 2px;
     cursor: pointer;
 }
-

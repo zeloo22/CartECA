@@ -4,45 +4,46 @@
     box-sizing: border-box;
 }
 
-.main{
+.mainc{
     width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 700;
 }
 
 header{
     background-color: #65a96e;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
-    padding: 10px;
+    padding: 6px;
 }
 
-.logo{
+.logoc{
     display: flex;
     width: 25%;
-    height: 80px;
+    height: 70px;
     justify-content: center;
 }
-.redes{
+.redesc{
     display: flex;
     width: 25%;
     justify-content: center;
 }
-.menu{
+.menuc{
     display: flex;
     width: 50%;
     justify-content: center;
 }
-.menu nav a{
+.menuc nav a{
     padding-right: 30px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     position: relative;
     color: #2c5c34;
 }
-.menu nav a::after{
+.menuc nav a::after{
     content: " ";
     width: 0px;
     height: 4px;
@@ -52,11 +53,11 @@ header{
     left: 0;
     transition: width 0.5s;
 }
-.menu nav a:hover::after{
+.menuc nav a:hover::after{
     width: 40px;
 }
 
-.redes button{
+.redesc button{
     height: 40px;
     width: 40px;
     cursor: pointer;
@@ -66,7 +67,7 @@ header{
     
     background-color: #b4cfbc;
 }
-.redes button i{
+.redesc button i{
     font-size: 20px;
     color: #2c5c34;
 }
